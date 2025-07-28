@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oxford-blue: #92140c;
+  --color-cerulean-blue: #2978a0;
+  --color-background: #1e1e1e;
+  --color-background-light: #262626;
+  --color-hover-gray: #3c3c3c;
+  --color-white-light: #ccdbdc;
+}
+
+body {
+  @apply bg-background text-white;
+}
